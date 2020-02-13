@@ -3,7 +3,7 @@ import Controller from '@ember/controller';
 
 export default Controller.extend({
 
-  headerMessage: 'Demo Home Page',
+  headerMessage: 'Book Management System',
   responseMessage: '',
   emailAddress: '',
 

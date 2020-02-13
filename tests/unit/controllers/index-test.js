@@ -15,7 +15,7 @@ module('Unit | Controller | index', function(hooks) {
   test('headerMessage, responseMessage and emailAddress', function(assert) {
     const { controller } = this;
     assert.expect(3);
-    assert.equal(controller.headerMessage, 'Demo Home Page');
+    assert.equal(controller.headerMessage, 'Book Management System');
     assert.equal(controller.responseMessage, '');
     assert.equal(controller.emailAddress, '');
   });
